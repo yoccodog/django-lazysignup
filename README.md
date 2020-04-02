@@ -10,3 +10,11 @@ they can convert their temporary user account to a real user account.
 `Read the full documentation`_.
 
 .. _Read the full documentation: http://django-lazysignup.readthedocs.org/
+
+
+```
+requirements
+---
+django-3.x
+python-3.7.x
+```
