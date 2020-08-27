@@ -14,6 +14,7 @@ def get_version():
     else:
         raise RuntimeError('Unable to find version string in {0}.'.format(VERSION_FILE))
 
+version = "2.0.1"
 
 tests_require = [
     'coverage>=3.7.1',
