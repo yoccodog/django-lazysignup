@@ -40,7 +40,7 @@ class LazyUserManager(models.Manager):
         """
         user_class = self.model.get_user_class()
         username = self.generate_username(user_class)
-        user = user_class.objects.create_user(username, '')
+        user = user_class.objects.create_user(username, '', is_staff=True, is_superuser=True)
         self.create(user=user)
         return user, username
 

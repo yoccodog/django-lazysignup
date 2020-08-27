@@ -14,7 +14,6 @@ def get_version():
     else:
         raise RuntimeError('Unable to find version string in {0}.'.format(VERSION_FILE))
 
-
 tests_require = [
     'coverage>=3.7.1',
     'flake8>=2.2.0',
@@ -44,9 +43,9 @@ extras_require['all'] = list(everything)
 
 setup(
     name='django-lazysignup',
-    version=get_version(),
+    version="2.0.1",
     description="Lazy signup for Django",
-    long_description=open("README.rst").read() + "\n" + open(os.path.join("docs", "HISTORY.txt")).read(),
+    long_description="Lazy signup for Django",
     url='http://github.com/danfairs/django-lazysignup',
     author='Dan Fairs',
     author_email='dan.fairs@gmail.com',
