@@ -45,7 +45,7 @@ setup(
     name='django-lazysignup',
     version="2.0.1",
     description="Lazy signup for Django",
-    long_description=open("README.rst").read() + "\n" + open(os.path.join("docs", "HISTORY.txt")).read(),
+    long_description="Lazy signup for Django",
     url='http://github.com/danfairs/django-lazysignup',
     author='Dan Fairs',
     author_email='dan.fairs@gmail.com',
