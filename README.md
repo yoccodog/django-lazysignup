@@ -13,3 +13,7 @@ requirements
 django-3.x
 python-3.7.x
 ```
+
+### What is this branch?
+
+This is a branch that adds middleware that wraps every request to allow lazy users. It also makes the user superusers. So, it's dangerous.
